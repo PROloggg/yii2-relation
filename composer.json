@@ -1,0 +1,31 @@
+{
+    "name": "prologgg/yii2-relation",
+    "description": "Делаю свой первый модуль. Простите",
+    "keywords": ["yii2", "yii2", "application", "images", "yii2-relation", "relation", "prologgg"],
+    "homepage": "https://github.com/prologgg/yii2-relation",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/prologgg/yii2-relation"
+    },
+    "authors": [
+        {
+            "name": "Sergey Noskov",
+            "email": "prologgg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "prologgg\\relation\\": ""
+        }
+    }
+}
